@@ -29,7 +29,7 @@ function createBook() {
 
             const response = await fetch("http://localhost:8000/api/books", {
         method: "POST",
-        bode: formData,
+        body: formData,
         });
 
 
